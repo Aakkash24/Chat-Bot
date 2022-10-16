@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SVCE</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en-GB">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+        <link rel="shortcut icon" href="https://www.svce.ac.in/wp-content/themes/svce/assets/images/favicons.png" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./particle.css" />
+        <title> Top Engineering Colleges Chennai | SVCE Sriperumbudur | Engg. College </title>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" id="svce-fonts-css"
+            href="https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C400i%2C600%2C600i%2C800%2C800i"
+            type="text/css" media="all" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet" />
+        <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body class="main">
+        <div>
+            <header class="nav-top-bar">
+                <ul class="navtoplist">
+                    <li class="navorange"><a id="a1" href="https://www.svce.ac.in/NAAC/" class="navtoplinks">NAAC</a>
+                    </li>
+                    <li class="navorange" style="background-color: #304c9c"><a
+                            href="https://www.svce.ac.in/accreditation/nirf/" class="navtoplinks" id="a1">NIRF</a></li>
+                    <li class="navorange"><a href="https://www.svce.ac.in/wp-content/uploads/2021/05/student-fees.html"
+                            class="navtoplinks" target="_blank" id="a1">Fees Payment Portal</a></li>
+                    <li class="navorange" style="background-color: #304c9c;font-weight: bold;">Counseling Code - <span
+                            class="f-medium lh-16">1219</span></li>
+                    <li class="navorange"><a href="https://svce.mastersofterp.in" class="navtoplinks" target="_blank"
+                            id="a1">Staff / Student Portal</a></li>
+                    <li class="navorange" style="background-color: #304c9c"></li>
+                </ul>
+            </header>
+        </div>
+
+        <section class="main-nav">
+            <img src="{{ url_for('static', filename='images/logo1.png') }}" alt="logo" class="logo" />
+            <div class="topnav">
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="https://www.svce.ac.in/">Home</a></button>
+                    <button class="dropbtn"><a href="https://www.svce.ac.in/admission/">Admissions</a></button>
+                    <div class="dropdown-content">
+                        <a href="https://www.svce.ac.in/admission/programs-offered/">Programs Offered</a>
+                        <a href="https://www.svce.ac.in/ug-pg-brochure-download-2021/">UG/PG Brochure Download</a>
+                        <a href="https://www.svce.ac.in/admission/admission-procedure/b-e-b-tech-admissions-2/">B.E/B.Tech.
+                            Admissions</a>
+                        <a
+                            href="https://www.svce.ac.in/admission/admission-procedure/b-e-b-tech-lateral-entry-admissions/">B.E./B.Tech.
+                            Lateral Entry Admissions</a>
+                        <a href="https://www.svce.ac.in/admission/admission-procedure/m-e-m-tech-admissions/">B.E/B.Tech.
+                            NRI Admissions</a>
+                        <a href="https://www.svce.ac.in/admission/admission-procedure/m-e-m-tech-admissions/">M.E./
+                            M.Tech Admissions</a>
+                        <a href="https://www.svce.ac.in/admission/admission-procedure/research-programs/">Research
+                            Programs</a>
+                        <a href="https://www.svce.ac.in/admission/fee-structure/">Fee Structure</a>
+                        <a href="https://www.svce.ac.in/admission/scholarships/">Scholarships</a>
+                        <a href="https://www.svce.ac.in/admission/medals-awards/">Medals & Awards</a>
+                        <a href="https://www.svce.ac.in/admission/cut-off-marks/">CUT-OFF Marks</a>
+                        <a href="https://www.svce.ac.in/admission/register-for-counseling/">Online Application for
+                            B.E/B.Tech</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="https://www.svce.ac.in/academics/">Academics</a></button>
+                    <div class="dropdown-content">
+                        <a href="https://www.svce.ac.in/academics/academic-departments/">Departments</a>
+                        <a href="https://www.svce.ac.in/ug-pg-brochure-download-2021/">UG/PG Brochure Download</a>
+                        <a href="https://www.svce.ac.in/academics/time-table/">Time Table</a>
+                        <a href="https://www.svce.ac.in/academics/video-lectures/">Video Lectures</a>
+                        <a href="https://www.svce.ac.in/office-of-the-coe/">Office of the CoE</a>
+                        <a href="https://www.svce.ac.in/campus-life/">Campus life</a>
+                        <a href="https://www.svce.ac.in/student-zone/">Student Zone</a>
+                        <a href="https://www.svce.ac.in/facilities/">Facilities</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="https://www.svce.ac.in/campus-life/">Campus life</a></button>
+                    <div class="dropdown-content">
+                        <a href="https://www.svce.ac.in/student-zone/">Student Zone</a>
+                        <a href="https://www.svce.ac.in/facilities/">Facilities</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="https://www.svce.ac.in/research/">Research</a></button>
+                    <div class="dropdown-content">
+                        <a href="https://www.svce.ac.in/research/office-of-the-dean-research/">Office of the Dean
+                            Research</a>
+                        <a href="https://www.svce.ac.in/research/research-funding/">Research Funding</a>
+                        <a href="https://www.svce.ac.in/research/research-area/">Research Area</a>
+                        <a href="https://www.svce.ac.in/research/patents/">Patents</a>
+                        <a href="https://www.svce.ac.in/research/faculty-research/">Faculty Research</a>
+                        <a href="https://www.svce.ac.in/research/student-research/">Student Research</a>
+                        <a href="https://www.svce.ac.in/research/events/">Events</a>
+                        <a href="https://www.svce.ac.in/research/books-published/">Books Published</a>
+                        <a href="https://www.svce.ac.in/research/svce-ipr-tt-policy/">SVCE IPR &amp; TT Policy</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="https://www.svce.ac.in/placement/">Placement</a></button>
+                    <div class="dropdown-content">
+                        <a href="/placement/?page=office-of-training-placement">Office of Training &amp; Placement</a>
+                        <a href="/placement/?page=training">Training</a>
+                        <a href="/placement/?page=major-recruiters">Major Recruiters</a>
+                        <a href="/placement/?page=list-of-recruiters">List of Recruiters</a>
+                        <a href="/placement/?page=packages-offered">Packages Offered</a>
+                        <a href="/placement/?page=placement-statistics">Placement Statistics</a>
+                        <a href="/placement/?page=feedback">Feedback</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="https://www.svce.ac.in/campus-life/">Campus life</a></button>
+                    <div class="dropdown-content">
+                        <a href="https://www.svce.ac.in/student-zone/">Student Zone</a>
+                        <a href="https://www.svce.ac.in/facilities/">Facilities</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="https://www.svce.ac.in/">Alumni</a></button>
+                    <button class="dropbtn"><a href="https://www.svce.ac.in/about-us/">About Us</a></button>
+                    <div class="dropdown-content">
+                        <a href="https://www.svce.ac.in/about-us/administration/">Administration</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="https://www.svce.ac.in/news-events/">News &amp; Events</a></button>
+                    <div class="dropdown-content">
+                        <a href="https://www.svce.ac.in/news-events/college-circular/">College Circular</a>
+                        <a href="https://www.svce.ac.in/news-events/events/">Events</a>
+                        <a href="https://www.svce.ac.in/news-events/svce-in-media/">SVCE in Media</a>
+                        <a href="https://www.svce.ac.in/news-events/newsletter/">Newsletter</a>
+                        <a href="https://www.svce.ac.in/news-events/archieves/">Archives</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+
+                    <button class="dropbtn"><a href="https://www.svce.ac.in/">Get in Touch</a></button>
+                </div>
+                <div class="dropdown"><i class="fa fa-search" aria-hidden="true"></i></div>
+
+            </div>
+
+            <img src="{{ url_for('static', filename='images/logo2.jpg') }}" alt="logo1" class="logo1" />
+        </section>
+
+        <section>
+            <div class="scrollWrap">
+                <div class="scroll2">
+                    <p>NEWS</p>
+                </div>
+                <div class="scroll1">
+                    <marquee width="100%" direction="left" height="40px">
+                        <pre>1. TNSI 2021 – Awareness – 24/12/2021      2. Entries are Invited for Intramural Research Project funding from the AY 2022-2023       3. Awardees of Alumni Scholarship from 1985-89 Batch – for the Academic Year 2021-22       4. Elected Office Bearers of the Students’ Council for the Academic Year 2021-2022       5. DECEMBER – 2021 Theory Examination Schedule for R16     </pre>
+                    </marquee>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numbertext"></div>
+                    <img src="{{ url_for('static', filename='images/slide1.png') }}" style="width: 100%" />
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"></div>
+                    <img src="{{ url_for('static', filename='images/slide2.png') }}" style="width: 100%" />
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"></div>
+                    <img src="{{ url_for('static', filename='images/slide3.jpg') }}" style="width: 100%" />
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6</div>
+                    <img src="5.jpg" style="width: 100%" />
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"></div>
+                    <img src="6.jpg" style="width: 100%" />
+                </div>
+                <a class="prev round" onclick="plusSlides(-1)">
+                    ❮
+                </a>
+                <a class="next round" onclick="plusSlides(1)">❯</a>
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="coursesOffered">
+            <div class="coTitle">
+                <h1>Courses Offered</h1>
+            </div>
+            <div class="coBody">
+                <div class="border">
+                    <h3>UG Programs</h3>
+                </div>
+                <div class="border">
+                    <h3>PG Programs</h3>
+                </div>
+                <div class="border">
+                    <h3>Research Programs</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner2">
+            <img src="why-svce.png" />
+        </section>
+
+
+        <section id="statistics">
+            <div class="statisticsTitle">
+                <h2>Statistics</h2>
+                <span></span>
+            </div>
+            <div class="statisticsBody">
+                <div>
+                    <h2>A place for learning, discovery, innovation, expression and discourse</h2>
+                    <div class="sBodyItemsWrap">
+                        <div class="sBodyItems">
+                            <div class="sBodyCards border">
+                                <h3>No.of Years</h3>
+                                <h1>36</h1>
+                            </div>
+                            <div class="sBodyCards border">
+                                <h3>Programs</h3>
+                                <h1>19</h1>
+                            </div>
+                            <div class="sBodyCards border">
+                                <h3>Research Centers</h3>
+                                <h1>10</h1>
+                            </div>
+                            <div class="sBodyCards">
+                                <h3>Students</h3>
+                                <h1>3911</h1>
+                            </div>
+                        </div>
+                        <div class="sBodyItems">
+                            <div class="sBodyCards border">
+                                <h3>Alumni</h3>
+                                <h1>22000</h1>
+                            </div>
+                            <div class="sBodyCards border">
+                                <h3>Funded Porjects</h3>
+                                <h3>(Live)</h3>
+                                <h1>18</h1>
+                            </div>
+                            <div class="sBodyCards">
+                                <h3>Placements</h3>
+                                <h1>96%</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="masSection">
+                        <a scr="#">
+                            <div class="masBtn">
+                                <h3>MORE ABOUT SVCE</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="recruiters">
+            <div class="rTitle">
+                <h2>Top Recruiters</h2>
+            </div>
+            <div class="rBody">
+                <img src="{{ url_for('static', filename='images/tr1.png') }}" alt="tr1" />
+            </div>
+        </section>
+
+
+        <section id="ca">
+            <div class="caTitle">
+                <h2>Clubs & Activities</h2>
+                <div>
+                    <div class="caCardWrap">
+                        <div class="caCards">
+                            <img src="{{ url_for('static', filename='images/rrc.png') }}" alt="ribbon" />
+                            <h4>Red Ribbon Club</h4>
+                        </div>
+                        <div class="caCards">
+                            <img src="{{ url_for('static', filename='images/yrc.png') }}" alt="red-cross" />
+                            <h4>Youth Red Cross</h4>
+                        </div>
+                        <div class="caCards">
+                            <img src="{{ url_for('static', filename='images/wrc.jpg') }}" alt="welding" />
+                            <h4>Welding Research Cell</h4>
+                        </div>
+                        <div class="caCards">
+                            <img src="{{ url_for('static', filename='images/grc.png') }}" alt="grc" />
+                            <h4>Grievance <br>Redressal Cell</h4>
+                        </div>
+                    </div>
+                    <div class="caCardWrap">
+                        <div class="caCards">
+                            <img src="{{ url_for('static', filename='images/iiic.png') }}" alt="iiic" />
+                            <h4>Industry-Institute <br> Interaction CELL</h4>
+                        </div>
+                        <div class="caCards">
+                            <img src="{{ url_for('static', filename='images/trc.jpg') }}" alt="tribology" />
+                            <h4>Tribology Research Cell</h4>
+                        </div>
+                        <div class="caCards">
+                            <img src="{{ url_for('static', filename='images/wec.jpg') }}" alt="women" />
+                            <h4>Women <br>Empowerment Cell </h4>
+                        </div>
+                        <div class="caCards">
+                            <img src="{{ url_for('static', filename='images/care.jpg') }}" alt="care" />
+                            <h4>CARE- Eco Club</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="caSectionBtn">
+                    <a>
+                        <div class="caBtn">VIEW ALL</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="acc">
+            <div class="accTitle">
+                <div>
+                    <h1>Accreditation</h1>
+                    <h2>Our Accreditation and Ranking</h2>
+                </div>
+            </div>
+            <div class="accBody">
+                <div class="accCard">
+                    <img src="{{ url_for('static', filename='images/nba.png') }}" alt="nba" height="90" />
+                    <h1>NBA</h1>
+                    <p>National Board of Accreditation</p>
+                </div>
+                <div class="accCard">
+                    <img src="{{ url_for('static', filename='images/naac.png') }}" alt="NAAC" height="90" />
+                    <h1>NAAC</h1>
+                    <p>National Assessment and Accreditation Council</p>
+                </div>
+                <div class="accCard">
+                    <img src="{{ url_for('static', filename='images/nirf.png') }}" alt="nirf" height="90" />
+                    <h1>NIRF</h1>
+                    <p> National Institutional Ranking Framework</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="pa">
+            <div class="paTitle">
+                <h1>Prominent Alumni</h1>
+                <span></span>
+            </div>
+            <div class="paBody">
+                <div class="paCard">
+                    <img src="{{ url_for('static', filename='images/alumni.png') }}" alt="" />
+                    <h1>Sujandharan Venkatachalam</h1>
+                    <h5>Palo Alto Networks <br> Senior Principle Software Engineer <br> EEE [2006]</h5>
+                </div>
+                <div class="paCard">
+                    <img src="{{ url_for('static', filename='images/alumni.png') }}" alt="" />
+                    <h1>Mario Gonslaves</h1>
+                    <h5>Palo Alto Networks <br> Senior Principle Software Engineer <br> EEE [2006]</h5>
+                </div>
+                <div class="paCard">
+                    <img src="{{ url_for('static', filename='images/alumni.png') }}" alt="" />
+                    <h1>Dinesh Ranjit</h1>
+                    <h5>Palo Alto Networks <br> Senior Principle Software Engineer <br> EEE [2006]</h5>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="footer">
+            <div class="sec1">
+                <img src="./images/logo.png" alt="svceLogo" />
+                <h2>Admission|Academins|Placement|Blogs</h2>
+                <h3>For Management Quota Counseling:</h3>
+                <h4>Contact:<br> 044-2447 0688, 044-2447 0689 <br>Email:admissionenquiry@svce.ac.in</h4>
+            </div>
+            <div class="sec2">
+                <h2>Contact Us</h2>
+                <h3>CAMPUS ADDRESS</h3>
+                <div class="secBody">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>
+                        Sri Venkateswara College of Engineering <br>
+                        Post Bag No.1 <br>
+                        Pennalur Village <br>
+                        Chennai-Bengaluru Highways <br>
+                        Sriperumbudur (off Chennai)Tk.-602 117 <br>
+                        Tamil Nadu, India
+                    </p>
+                </div>
+
+                <h3>TRUST OFFICE ADDRESS</h3>
+                <div class="secBody">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Sri Venkateswara Educational and Health Trust<br>
+                        Address: 1/3A River View Road,<br>
+                        Sector 3, Kotturpuram,<br>
+                        Chennai, Tamil Nadu 6000085
+                    </p>
+                </div>
+                <div class="secBody">
+                    <i class="fas fa-envelope"></i>
+                    <p>
+                        acm@svce.ac.in <br>
+                        principal@svce.ac.in <br>
+                        enquiry@svce.ac.in <br>
+                    </p>
+                </div>
+                <div class="secBody">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+91-44-27152000</p>
+                </div>
+
+            </div>
+            <div class="sec3">
+                <div>
+                    <h2>Quick Links</h2>
+                    <a>
+                        <h5>Library</h5>
+                    </a>
+                    <a>
+                        <h5>Anti- Ragging Committee</h5>
+                    </a>
+                    <a>
+                        <h5>Disability Resource Centre</h5>
+                    </a>
+                    <a>
+                        <h5>Prevention of Ragging</h5>
+                    </a>
+                    <a>
+                        <h5>Mandatory Disclosure</h5>
+                    </a>
+                    <a>
+                        <h5>Undertaking for UGC</h5>
+                    </a>
+                    <a>
+                        <h5>FAQ on Management Scholarships</h5>
+                    </a>
+                    <a>
+                        <h5>Financial Statement</h5>
+                    </a>
+                    <a>
+                        <h5>DOTE-Fixation Committee</h5>
+                    </a>
+                    <a>
+                        <h5>SVCE Temple</h5>
+                    </a>
+                    <a>
+                        <h5>Online Verification</h5>
+                    </a>
+                    <a>
+                        <h5>Bus schedule</h5>
+                    </a>
+                    <a>
+                        <h5>Staff Mail</h5>
+                    </a>
+                    <a>
+                        <h5>Service Rule</h5>
+                    </a>
+                    <a>
+                        <h5>Careers</h5>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="subFoot"></section>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides((slideIndex += n));
+            }
+
+            function currentSlide(n) {
+                showSlides((slideIndex = n));
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                var captionText = document.getElementById("caption");
+                if (n > slides.length) {
+                    slideIndex = 1;
+                }
+                if (n < 1) {
+                    slideIndex = slides.length;
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                captionText.innerHTML = dots[slideIndex - 1].alt;
+            }
+        </script>
+
+        <br /><br /><br />
+
+        <button onclick="topFunction()" id="myBtn" title="Careers >>">
+            Top
+        </button>
+        <script>
+            var mybutton = document.getElementById("myBtn");
+
+            window.onscroll = function () {
+                scrollFunction();
+            };
+
+            function scrollFunction() {
+                if (
+                    document.body.scrollTop > 20 ||
+                    document.documentElement.scrollTop > 20
+                ) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+
+        <div class="cont">
+            <div class="chatbox">
+                <div class="chatbox__support">
+                    <div class="chatbox__header">
+                        <div class="chatbox__image--header">
+                            <img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-5--v1.png"
+                                alt="image">
+                        </div>
+                        <div class="chatbox__content--header">
+                            <h4 class="chatbox__heading--header">Chat support</h4>
+                            <p class="chatbox__description--header">SVCE Chatbot</p>
+                        </div>
+                    </div>
+                    <div class="chatbox__messages">
+                        <div></div>
+                    </div>
+                    <div class="chatbox__footer">
+                        <input type="text" placeholder="Write a message...">
+                        <button class="chatbox__send--footer send__button">Send</button>
+                    </div>
+                </div>
+                <div class="chatbox__button">
+                    <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+                </div>
+            </div>
+        </div>
+        <script>
+            $SCRIPT_ROOT = {{ request.script_root | tojson }};
+        </script>
+        <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+    </body>
+
+    </html>
