@@ -2,6 +2,8 @@
 
 Chat-Who is an Chat Bot which is build using the concepts of NLP and CNN.
 
+![alt text](http://url/to/img.png)
+
 ## Workflow for creating this project:
 
 1. Initally, a JSON file is created which contains a "Tag" that represents the class of the question, its corresponding "Patterns" that can be asked to the chatbot, and "Responses" that contains possible reply for the question.
