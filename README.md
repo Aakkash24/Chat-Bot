@@ -2,7 +2,8 @@
 
 Chat-Who is an Chat Bot which is build using the concepts of NLP and CNN.
 
-![alt text]([http://url/to/img.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fchatbot&psig=AOvVaw0eXvn2mpYVOTAx07xkMvD3&ust=1665976686263000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCODzqpzl4_oCFQAAAAAdAAAAABAE))
+![chatbot](https://user-images.githubusercontent.com/86700664/196016383-4b239875-d5fc-4022-84c8-d49937ea03d5.png)
+
 
 ## Workflow for creating this project:
 
